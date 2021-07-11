@@ -50,21 +50,24 @@ table {
 .content{
     width: 1200px;
     margin: 0 auto;
-    text-align: center;
 }
 .header{
-    height: 511px;
+    height: 600px;
     background: url('https://upload.cc/i1/2021/07/10/tVWRDP.png')no-repeat;
     background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.about,.work_experience,.myBrand,.otherWork,.contact{
+    text-align: center;
+}
 .title_and_linker{
     color: white;
     width: 304px;
 }
-.title_and_linker h3{
+.header.title_and_linker h3{
+    text-align-last: left;
     font-size: 24px;
     line-height: 42px;
 }
